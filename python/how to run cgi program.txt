@@ -1,0 +1,10 @@
+How to run CGI progrm----
+
+
+1)Install wampserver
+2) the go to wampserver----->http conf----->then do changes given below(list of information)
+  AddHandler cgi-script .cgi .py
+  Options Indexes FollowSynmLinks ExecCGI
+3)then save it
+4)Restart all services
+5)wampserver put online
